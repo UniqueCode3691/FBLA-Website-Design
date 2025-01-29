@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
 @import "tailwindcss";
 
 @theme {
@@ -6,4 +7,8 @@
   --color-mapletan: oklch(87.52% 0.0426 71.86);
   --color-maplered: oklch(45.2% 0.1562 26.11);
   --color-mapleorange: oklch(66.43% 0.1395 68.68);
+}
+
+body {
+  font-family: Lexend;
 }
